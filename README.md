@@ -2,7 +2,7 @@
 
 By Ting Xu, 31 March 2026
 
-This is to extend the functionality of the YouTube Data Tool (Rieder 2015) by allowing the retrieval of multiple videos' comments at once. It also facilitates data cleaning (remove duplicates, remove empty values, remove HTML entities) and language detection for corpus linguistics studies through software like AntConc (Anthony 2024) and Sketch Engine (Kilgarriff et al., 2014).
+This is to extend the functionality of [the YouTube Data Tool](https://ytdt.digitalmethods.net/index.php) (Rieder 2015) by allowing the retrieval of multiple videos' comments at once. It also facilitates data cleaning (remove duplicates, remove empty values, remove HTML entities) and language detection for corpus linguistics studies through software like [AntConc](https://www.laurenceanthony.net/software/antconc/) (Anthony 2024) and [Sketch Engine](https://www.sketchengine.eu/) (Kilgarriff et al., 2014).
 
 
 Step 1: Set Up Google Cloud Project.
