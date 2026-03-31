@@ -30,4 +30,4 @@ This process improves transparency and accuracy. It advances this [corpus-assist
 
 # In addition, to read the comment network file from the YouTube Data Tool in Gephi...
 
-Gephi can open GDF, but the GDF file (graph format) from the module "Video Comments" on the YouTube Data Tool page cannot be directly parsed when I used it in winter and spring 2026. To properly open it, the script from the "read_commentnetwork" file will help prepare the graph in NetworkX and then export it to the right format GraphML for Gephi.
+Gephi can open GDF, but the GDF file (graph format) from the module "Video Comments" on the YouTube Data Tool page cannot be directly parsed when I used it in spring 2026. To properly open it, the script from the "read_commentnetwork" file will help prepare the graph in NetworkX and then export it to the right format GraphML for Gephi.
