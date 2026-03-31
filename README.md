@@ -18,4 +18,4 @@ Step 1: Set Up Google Cloud Project.
 
 Understanding the default quota and how many comments you may get with it is a plus. 
 
-Step 2: Install any packages you do not have
+Step 2: Download Anaconda, create a virtual environment, and install different packages. See [this tutorial video](https://www.youtube.com/watch?v=SwSbnmqk3zY&t=10s) by a YouTuber (techTFQ 2021). 
