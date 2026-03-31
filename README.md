@@ -26,3 +26,7 @@ Get YouTube comments from multiple videos: if you have 100 videos' comments to r
 Clean and keep English comments: each comment is saved into an independent txt file to allow a full view of the content without mixing up with other comments. Sketch Engine allows 100 files and 1 million tokens. AntConc has no such limits, so the comments are saved into various txt files in a folder. Auto-language detection is applied with manual detection because extremely short comments may be easily mistaken for non-English. Check the identified files in the non-English CSV and manually decide which ones you like to keep and delete. So the corpus would be mainly in English. 
 
 This process improves transparency and accuracy. It advances this [corpus-assisted critical discourse analysis of YouTube comments](https://methods.sagepub.com/hnbk/edvol/the-sage-handbook-of-social-media-research-methods-2e-srm/chpt/17-corpusassisted-critical) (Hodson and Lefevre 2022). 
+
+# Read the comment network file from YouTube Data Tool.
+
+Gephi can open GDF, but the GDF file cannot be directly parsed. So the coding file "read_commentnetwork" prepares the graph in NetworkX and then exports it to GraphML. 
