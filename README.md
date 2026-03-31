@@ -2,7 +2,7 @@
 
 By Ting Xu, 31 March 2026
 
-This is to extend the functionality of [the YouTube Data Tool](https://ytdt.digitalmethods.net/index.php) (Rieder 2015 @[bernorieder](https://github.com/bernorieder)) by allowing the retrieval of multiple videos' comments at once in Python. It also facilitates data cleaning (remove duplicates, remove empty values, remove HTML entities, remove usernames) and language detection for corpus linguistics studies through software like [AntConc](https://www.laurenceanthony.net/software/antconc/) (Anthony 2024) and [Sketch Engine](https://www.sketchengine.eu/) (Kilgarriff et al., 2014).
+This is to extend the functionality of a wonderful, powerful, and free researcher-oriented [YouTube Data Tool](https://ytdt.digitalmethods.net/index.php) (Rieder 2015 @[bernorieder](https://github.com/bernorieder)) by allowing the retrieval of multiple videos' comments at once in Python. It also facilitates data cleaning (remove duplicates, remove empty values, remove HTML entities, remove usernames) and language detection for corpus linguistics studies through software like [AntConc](https://www.laurenceanthony.net/software/antconc/) (Anthony 2024) and [Sketch Engine](https://www.sketchengine.eu/) (Kilgarriff et al., 2014).
 
 
 Step 1: Set Up Google Cloud Project.
@@ -28,6 +28,6 @@ Clean and keep English comments: each comment is saved into an independent txt f
 
 This process improves transparency and accuracy. It advances this [corpus-assisted critical discourse analysis of YouTube comments](https://methods.sagepub.com/hnbk/edvol/the-sage-handbook-of-social-media-research-methods-2e-srm/chpt/17-corpusassisted-critical) (Hodson and Lefevre 2022). 
 
-# Read the comment network file from YouTube Data Tool.
+# In addition, to read the comment network file from the YouTube Data Tool in Gephi...
 
-Gephi can open GDF, but the GDF file from the module "Video Comments" on the YouTube Data Tool page cannot be directly parsed for now. So the coding file "read_commentnetwork" here prepares the graph in NetworkX and then exports it to GraphML for Gephi.
+Gephi can open GDF, but the GDF file (graph format) from the module "Video Comments" on the YouTube Data Tool page cannot be directly parsed when I used it in winter and spring 2026. To properly open it, the script from the "read_commentnetwork" file will help prepare the graph in NetworkX and then export it to the right format GraphML for Gephi.
