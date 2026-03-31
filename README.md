@@ -2,7 +2,7 @@
 
 By Ting Xu, 31 March 2026
 
-This is to extend the functionality of [the YouTube Data Tool](https://ytdt.digitalmethods.net/index.php) (Rieder 2015) by allowing the retrieval of multiple videos' comments at once. It also facilitates data cleaning (remove duplicates, remove empty values, remove HTML entities, remove usernames) and language detection for corpus linguistics studies through software like [AntConc](https://www.laurenceanthony.net/software/antconc/) (Anthony 2024) and [Sketch Engine](https://www.sketchengine.eu/) (Kilgarriff et al., 2014).
+This is to extend the functionality of [the YouTube Data Tool](https://ytdt.digitalmethods.net/index.php) (Rieder 2015) by allowing the retrieval of multiple videos' comments at once in Python. It also facilitates data cleaning (remove duplicates, remove empty values, remove HTML entities, remove usernames) and language detection for corpus linguistics studies through software like [AntConc](https://www.laurenceanthony.net/software/antconc/) (Anthony 2024) and [Sketch Engine](https://www.sketchengine.eu/) (Kilgarriff et al., 2014).
 
 
 Step 1: Set Up Google Cloud Project.
@@ -20,8 +20,9 @@ Understanding [the default quota](https://developers.google.com/youtube/v3/deter
 
 Step 2: Download Anaconda, create a virtual environment, choose Python and Jupyter Notebook, and install different packages. See [this tutorial video](https://www.youtube.com/watch?v=SwSbnmqk3zY&t=10s) by a YouTuber (techTFQ 2021). 
 
-Step 3: Try the scripts here. 
-Get YouTube comments from multiple videos: if you have 100 videos' comments to retrieve and you like to do it in a batch, rather than through repeating single clicks.
+Step 3: Attain videos' IDs
+
+Supposing you like to explore comments from multiple videos without repeated single clicks to download them, you choose the Video List module in the YouTube Data Tool to attain many video IDs.
 
 Clean and keep English comments: each comment is saved into an independent txt file to allow a full view of the content without mixing up with other comments. Sketch Engine allows 100 files and 1 million tokens. AntConc has no such limits, so the comments are saved into various txt files in a folder. Auto-language detection is applied with manual detection because extremely short comments may be easily mistaken for non-English. Check the identified files in the non-English CSV and manually decide which ones you like to keep and delete. So the corpus would be mainly in English. 
 
