@@ -6,7 +6,7 @@ This is to extend the functionality of the YouTube Data Tool (Rieder 2015) by al
 
 
 Step 1: Set Up Google Cloud Project.
-  Go to the Google Cloud Console.
+  Go to the G[oogle Cloud Console](https://console.cloud.google.com/).
   Create a new project or use an existing one.
   Enable the YouTube Data API v3 for your project.
   Navigate to API & Services > Library.
