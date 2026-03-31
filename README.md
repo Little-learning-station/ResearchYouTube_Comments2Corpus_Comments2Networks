@@ -30,4 +30,4 @@ This process improves transparency and accuracy. It advances this [corpus-assist
 
 # Read the comment network file from YouTube Data Tool.
 
-Gephi can open GDF, but the GDF file cannot be directly parsed. So the coding file "read_commentnetwork" prepares the graph in NetworkX and then exports it to GraphML. 
+Gephi can open GDF, but the GDF file from the module "Video Comments" on the YouTube Data Tool page cannot be directly parsed for now. So the coding file "read_commentnetwork" here prepares the graph in NetworkX and then exports it to GraphML for Gephi.
