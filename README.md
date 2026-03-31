@@ -16,6 +16,6 @@ Step 1: Set Up Google Cloud Project.
   Click on Create Credentials and select API key.
   Copy the API key for use in the scripts.
 
-Understanding the default quota and how many comments you may get with it is a plus. 
+Understanding the default quota[ ](https://developers.google.com/youtube/v3/determine_quota_cost)and how many comments you may get with it is a plus. 
 
 Step 2: Download Anaconda, create a virtual environment, and install different packages. See [this tutorial video](https://www.youtube.com/watch?v=SwSbnmqk3zY&t=10s) by a YouTuber (techTFQ 2021). 
